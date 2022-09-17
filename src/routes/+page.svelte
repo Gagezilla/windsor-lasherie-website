@@ -11,10 +11,10 @@
             <div class="h-[31.25rem] md:h-[40.625rem]">
                 <img alt="home" src="/img/home.webp" class="object-cover md:rounded-lg w-full h-full">
             </div>
-            <div class="absolute bottom-3 right-1/2 translate-x-1/2 md:bottom-8">
+            <div class="absolute bottom-7 md:bottom-8 right-1/2 translate-x-1/2">
                 <a target="_blank"
                    href="https://schedulicity.com/scheduling/wlf7wx/services"
-                   class="btn btn-primary btn-outline md:h-14 md:px-6">Book Now</a>
+                   class="btn btn-primary btn-outline h-12 px-6 md:h-16 md:px-7">Book Now</a>
             </div>
         </FadeIn>
     </div>
