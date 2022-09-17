@@ -124,5 +124,9 @@
                       ]}/>
         </FadeIn>
     </div>
-
+    <div class="flex justify-center">
+        <a target="_blank"
+           href="https://schedulicity.com/scheduling/wlf7wx/services"
+           class="btn btn-primary btn-outline btn-wide mt-8">Book Appointment</a>
+    </div>
 </Page>
