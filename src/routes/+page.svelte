@@ -8,7 +8,9 @@
 
     <div class="relative">
         <FadeIn duration="1.25s">
-            <img alt="home" src="/img/home.webp" class="md:rounded-lg" width="1072" height="653">
+            <div class="h-[31.25rem] md:h-[40.625rem]">
+                <img alt="home" src="/img/home.webp" class="object-cover md:rounded-lg w-full h-full">
+            </div>
             <div class="absolute bottom-3 right-1/2 translate-x-1/2 md:bottom-8">
                 <a target="_blank"
                    href="https://schedulicity.com/scheduling/wlf7wx/services"
@@ -18,7 +20,7 @@
     </div>
 
     <FadeIn duration="1.25s">
-        <h1 class="text-center my-8 text-[1.2rem]">
+        <h1 class="text-center my-8 text-[1.7rem]">
             Professional treatments.<br>Real results.
         </h1>
     </FadeIn>
