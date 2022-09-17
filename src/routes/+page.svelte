@@ -25,7 +25,7 @@
         </h1>
     </FadeIn>
 
-    <div class="grid gap-8 grid-cols-1 md:grid-cols-3 mx-10 md:mx-0 place-items-center">
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-4 mx-10 md:mx-0 place-items-center">
         <div class="w-full max-w-[24rem] md:max-w-none">
             <FadeIn duration="1.25s">
                 <a href="/services"
@@ -39,7 +39,7 @@
             <FadeIn duration="1.25s" delay=".1s">
                 <a href="/products"
                    class="pt-[100%] relative block hover:scale-[.99] duration-200 ease-[cubic-bezier(0.4, 0, 0.2, 1)]">
-                    <img alt="products" src="/img/products.webp" class="rounded-xl w-full h-full absolute top-0 object-cover">
+                    <img alt="products" src="/img/products.png" class="rounded-xl w-full h-full absolute top-0 object-cover">
                 </a>
                 Professional Products
             </FadeIn>
@@ -51,6 +51,15 @@
                     <img alt="skin care" src="/img/skin-care.webp" class="rounded-xl w-full h-full absolute top-0 object-cover">
                 </a>
                 Customized Skin Care
+            </FadeIn>
+        </div>
+        <div class="w-full max-w-[24rem] md:max-w-none">
+            <FadeIn duration="1.25s">
+                <a href="/services"
+                   class="pt-[100%] relative block hover:scale-[.99] duration-200 ease-[cubic-bezier(0.4, 0, 0.2, 1)]">
+                    <img alt="treatments" src="/img/tips.jfif" class="rounded-xl w-full h-full absolute top-0 object-cover">
+                </a>
+                Skin Care Tips
             </FadeIn>
         </div>
     </div>
