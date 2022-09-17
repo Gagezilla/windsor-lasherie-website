@@ -55,7 +55,7 @@
         </div>
         <div class="w-full max-w-[24rem] md:max-w-none">
             <FadeIn duration="1.25s">
-                <a href="/services"
+                <a target="_blank" href="/pdf/pore-clogging-ingredients.pdf"
                    class="pt-[100%] relative block hover:scale-[.99] duration-200 ease-[cubic-bezier(0.4, 0, 0.2, 1)]">
                     <img alt="treatments" src="/img/tips.jfif" class="rounded-xl w-full h-full absolute top-0 object-cover">
                 </a>
