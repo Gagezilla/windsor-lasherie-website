@@ -34,7 +34,7 @@
         <FadeIn duration="1.25s" delay=".1s">
             <Collapse title="Advanced Treatments*"
                       content={[
-                          {title: "Microneedling Treatment",
+                          {title: "Microneedling Treatment (coming soon)",
                           content: `Microneedling activates the skin's repair process
                           and collagen production. This minimally-invasive treatment
                           uses the most advanced techniques to target dark spots,

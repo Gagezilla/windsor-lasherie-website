@@ -9,7 +9,7 @@
         onload="window.parent.scrollTo(0,0)"
         allowtransparency="true"
         src="https://form.jotform.com/210467172312043"
-        class="min-w-full rounded-xl"
+        class="min-h-[10rem] min-w-full rounded-xl"
         scrolling="no"
 >
 </iframe>

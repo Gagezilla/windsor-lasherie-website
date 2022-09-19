@@ -3,42 +3,53 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">->
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
-  <loc>https://windsorlasherie.com/</loc>
-  <lastmod>2022-09-13T03:37:15+00:00</lastmod>
+  <loc>https://www.windsorlasherie.com/</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://windsorlasherie.com/products</loc>
-  <lastmod>2022-09-13T03:37:15+00:00</lastmod>
+  <loc>https://www.windsorlasherie.com/products</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://windsorlasherie.com/services</loc>
-  <lastmod>2022-09-13T03:37:15+00:00</lastmod>
+  <loc>https://www.windsorlasherie.com/services</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://windsorlasherie.com/faq</loc>
-  <lastmod>2022-09-13T03:37:15+00:00</lastmod>
+  <loc>https://www.windsorlasherie.com/faq</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://windsorlasherie.com/pdf/propeel-care.pdf</loc>
-  <lastmod>2022-09-13T03:37:15+00:00</lastmod>
+  <loc>https://www.windsorlasherie.com/forms/advanced-treatments</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://windsorlasherie.com/pdf/microneedling-care.pdf</loc>
-  <lastmod>2022-09-13T03:37:15+00:00</lastmod>
+  <loc>https://www.windsorlasherie.com/pdf/propeel-care.pdf</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://windsorlasherie.com/pdf/dermaplaning-care.pdf</loc>
-  <lastmod>2022-09-13T03:37:15+00:00</lastmod>
+  <loc>https://www.windsorlasherie.com/pdf/microneedling-care.pdf</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.windsorlasherie.com/pdf/dermaplaning-care.pdf</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.windsorlasherie.com/pdf/pore-clogging-ingredients.pdf</loc>
+  <lastmod>2022-09-19T01:06:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
