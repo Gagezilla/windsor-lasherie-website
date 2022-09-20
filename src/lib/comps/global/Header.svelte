@@ -5,7 +5,10 @@
 
     let open = false;
 
-    let toggleOpen = () => open = !open;
+    let toggleOpen = () => {
+        open = !open;
+        document.activeElement.blur();
+    }
     let closeOpen = () => open = false;
 
     $: if($navigating) closeOpen();
