@@ -9,7 +9,7 @@ export async function handle({ event, resolve }) {
         <div class="modal-action">
           <button onclick="(() => {
               document.querySelector('#first-open-modal').classList.remove('modal-open')
-          })()" class="btn btn-outline mx-auto">Close</button>
+          })()" class="btn btn-primary btn-outline mx-auto">Close</button>
         </div>
       </div>
     </div>

@@ -13,10 +13,10 @@
         {#if content}
             {#each content as part, i}
                 {#if part.title && !part.content}
-                    <span class="font-bold px-10">{part.title}</span>
+                    <h3 class="font-bold px-10">{part.title}</h3>
                     {#if i !== content.length-1}<br><br>{/if}
                 {:else if part.title && part.content}
-                    <span class="font-bold px-10">{part.title}</span><br><br>
+                    <h3 class="font-bold px-10">{part.title}</h3><br><br>
                     <p class="inline-block px-10">{part.content}</p>
                     {#if i !== content.length-1}<br><br>{/if}
                 {/if}
