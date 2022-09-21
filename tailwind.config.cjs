@@ -12,7 +12,6 @@ module.exports = {
         '-sm': { max: '639px' },
       },
       fontFamily: {
-        'marion-script': ['Marion Script'],
         'gistesy': ['Gistesy'],
       },
     },
