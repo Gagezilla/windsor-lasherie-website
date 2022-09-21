@@ -11,6 +11,10 @@ module.exports = {
         '-md': { max: '767px' },
         '-sm': { max: '639px' },
       },
+      fontFamily: {
+        'marion-script': ['Marion Script'],
+        'gistesy': ['Gistesy'],
+      },
     },
   },
   daisyui: {

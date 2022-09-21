@@ -12,3 +12,15 @@ body {
     @apply overflow-y-scroll;
     @apply overflow-x-hidden;
 }
+
+@font-face {
+    font-family: "Marion Script";
+    font-display: swap;
+    src: url("/font/marion-script.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "Gistesy";
+    font-display: swap;
+    src: url("/font/gistesy.woff2") format("woff2")
+}

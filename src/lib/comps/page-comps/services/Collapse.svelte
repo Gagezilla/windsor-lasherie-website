@@ -9,13 +9,14 @@
         {title}
     </div>
     <div class="collapse-content">
+        <div class="pt-5"></div>
         {#if content}
             {#each content as part, i}
                 {#if part.title && !part.content}
-                    <span class="font-medium">{part.title}</span>
+                    <span class="font-bold">{part.title}</span>
                     {#if i !== content.length-1}<br><br>{/if}
                 {:else if part.title && part.content}
-                    <span class="font-medium">{part.title}</span><br><br>
+                    <span class="font-bold">{part.title}</span><br><br>
                     <p class="inline-block px-10">{part.content}</p>
                     {#if i !== content.length-1}<br><br>{/if}
                 {/if}
