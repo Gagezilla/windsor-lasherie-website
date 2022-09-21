@@ -21,7 +21,9 @@ export async function handle({ event, resolve }) {
     let notBeenHere = event.cookies.get("been-here") !== "true"
 
     if (notBeenHere) {
-        event.cookies.set("been-here", "true")
+        event.cookies.set("been-here", "true", {
+            expires: new Date(2100, 0)
+        })
     }
 
     resolved = await resolve(event, {transformPageChunk: ({ html }) => {
