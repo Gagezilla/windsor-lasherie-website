@@ -13,7 +13,7 @@ export async function handle({ event, resolve }) {
         </div>
       </div>
     </div>
-    <!--googleon: all>
+    <!--googleon: all-->
     `
 
     let resolved;
