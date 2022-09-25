@@ -1,22 +1,26 @@
 <!--suppress ALL -->
 <script>
     import { browser } from '$app/environment';
+
+    export let formId = "210467172312043";
 </script>
 
 <iframe
-        id="JotFormIFrame-210467172312043"
-        title="Client Treatment Authorization"
+        id="JotFormIFrame-{formId}"
+        title="Authorization Form"
         onload="window.parent.scrollTo(0,0)"
         allowtransparency="true"
-        src="https://form.jotform.com/210467172312043"
-        class="min-h-[10rem] min-w-full rounded-xl"
+        src="https://form.jotform.com/{formId}"
+        class="jot-form min-h-[10rem] min-w-full rounded-xl"
         scrolling="no"
+        formId={formId}
 >
 </iframe>
 
 {#if browser}
     <script type="text/javascript">
-        var ifr = document.getElementById("JotFormIFrame-210467172312043");
+        var fid = document.querySelector(".jot-form").getAttribute("formId")
+        var ifr = document.getElementById("JotFormIFrame-" + fid);
         if (ifr) {
             var src = ifr.src;
             var iframeParams = [];

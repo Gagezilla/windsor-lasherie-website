@@ -15,7 +15,7 @@
 <PageTransition>
     <div class="main-container">
         {#if title}
-            <div class="px-10 md:p-0">
+            <div class="mx-6 md:p-0">
                 <h1 class="font-medium text-[1.5rem] mb-2">{title}</h1>
                 {#if content}<p>{content}</p>{/if}
                 <div class="divider"></div>
