@@ -18,7 +18,7 @@
 
                           {title: "65 min Glow Facial",
                           content: `The ultimate customizable treatment addresses
-                          multiple concerns.Depending on your skin's needs, it may
+                          multiple concerns. Depending on your skin's needs, it may
                           include enhanced technology such as ultrasonic, hi-frequency,
                           LED light therapy and a combination of professional-grade actives.`},
 
