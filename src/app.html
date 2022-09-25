@@ -14,7 +14,7 @@
 	%sveltekit.head%
 </head>
 <body>
-<!--googleoff: all-->
+<div>%sveltekit.body%</div>
 <div id="first-open-modal" class="modal">
 	<div class="modal-box text-center">
 		<h3 class="text-[#6c3514] tracking-wide font-medium text-4xl font-gistesy">Hi I'm Allison, Skin Care Therapist at the Windsor Lasherie!</h3>
@@ -26,8 +26,6 @@
 		</div>
 	</div>
 </div>
-<!--googleon: all-->
-<div>%sveltekit.body%</div>
 <script>
 	const fpPromise = import('https://fpcdn.io/v3/I8leoGqfZbUYt40OP1qo')
 			.then(FingerprintJS => FingerprintJS.load());
@@ -36,7 +34,7 @@
 			.then(fp => fp.get())
 			.then(result => {
 				if (!result.visitorFound) {
-					document.querySelector("#first-open-modal").add("modal-open")
+					document.querySelector("#first-open-modal").classList.add("modal-open")
 				}
 			});
 </script>
