@@ -1,8 +1,19 @@
 <script>
-    import { fly } from 'svelte/transition';
+    import {fly} from 'svelte/transition';
+    import {afterNavigate} from '$app/navigation';
+
+    let duration = 500
+    afterNavigate(({from}) => {
+        setTimeout(() => {
+            loaded = true
+        }, from !== null ? duration : 0);
+    });
+    export let loaded;
 </script>
 
-<main in:fly={{ x: -5, duration: 500, delay: 500 }}
-     out:fly={{ x: 5, duration: 500 }}>
-    <slot/>
-</main>
+{#if loaded}
+    <main in:fly={{ x: -5, duration: duration }}
+          out:fly={{ x: 5, duration: duration }}>
+        <slot/>
+    </main>
+{/if}
