@@ -46,7 +46,7 @@
                     </a>
                     <ul class="p-2 bg-base-200 w-full md:w-auto z-50 shadow">
                         <li><a on:click={toggleOpen} href="/forms/client-consultation">Client Consultation</a></li>
-                        <li><a on:click={toggleOpen} href="/forms/client-treatment-authorization">Client Treatment Authorization</a></li>
+                        <li><a on:click={toggleOpen} href="/forms/advanced-treatment-authorization">Advanced Treatment Authorization</a></li>
                         <li><a on:click={toggleOpen} href="/forms/power-peel-consent">Power Peel Consent</a></li>
                         <li><a on:click={toggleOpen} href="/forms/acne-treatment-consent">Acne Treatment Consent</a></li>
                         <li><a on:click={toggleOpen} href="/forms/face-reality-questionnaire">Face Reality Questionnaire</a></li>

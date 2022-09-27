@@ -3,6 +3,6 @@
     import Form from "$lib/comps/page-comps/forms/Form.svelte";
 </script>
 
-<Page title="Client Treatment Authorization Form" content="A required form for getting an advanced treatment.">
+<Page title="Advanced Treatment Authorization Form" content="A required form for getting an advanced treatment.">
     <Form formId="210467172312043" />
 </Page>
