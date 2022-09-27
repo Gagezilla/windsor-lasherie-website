@@ -8,7 +8,7 @@
             loaded = true
         }, from !== null ? duration : 0);
     });
-    export let loaded;
+    let loaded;
 </script>
 
 {#if loaded}

@@ -3,11 +3,11 @@
     import PageSEO from "$lib/comps/page-templates/page/PageSEO.svelte";
     import Footer from "$lib/comps/global/Footer.svelte";
 
-    export let title;
-    export let content;
+    export let title = undefined;
+    export let content = undefined;
 
-    export let hTitle;
-    export let hContent;
+    export let hTitle = undefined;
+    export let hContent = undefined;
 </script>
 
 <PageSEO title={hTitle ? hTitle : title} content={hContent ? hContent : content}/>
