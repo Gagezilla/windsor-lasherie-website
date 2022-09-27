@@ -11,7 +11,7 @@
         onload="window.parent.scrollTo(0,0)"
         allowtransparency="true"
         src="https://form.jotform.com/{formId}"
-        class="jot-form min-h-[10rem] min-w-full rounded-xl"
+        class="jot-form min-h-[35rem] min-w-full rounded-xl"
         scrolling="no"
         formId={formId}
 >

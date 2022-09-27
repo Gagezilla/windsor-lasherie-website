@@ -45,9 +45,11 @@
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                     </a>
                     <ul class="p-2 bg-base-200 w-full md:w-auto z-50 shadow">
-                        <li><a on:click={toggleOpen} href="/forms/basic-treatment">Basic Treatment</a></li>
-                        <li><a on:click={toggleOpen} href="/forms/advanced-treatment">Advanced Treatment</a></li>
-                        <li><a on:click={toggleOpen} href="/forms/power-peel">Power Peel</a></li>
+                        <li><a on:click={toggleOpen} href="/forms/client-consultation">Client Consultation</a></li>
+                        <li><a on:click={toggleOpen} href="/forms/client-treatment-authorization">Client Treatment Authorization</a></li>
+                        <li><a on:click={toggleOpen} href="/forms/power-peel-consent">Power Peel Consent</a></li>
+                        <li><a on:click={toggleOpen} href="/forms/acne-treatment-consent">Acne Treatment Consent</a></li>
+                        <li><a on:click={toggleOpen} href="/forms/face-reality-questionnaire">Face Reality Questionnaire</a></li>
                     </ul>
                 </li>
             </ul>
