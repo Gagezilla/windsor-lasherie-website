@@ -5,7 +5,7 @@
 .main-container {
     @apply mx-auto;
     @apply max-w-6xl;
-    @apply md:px-10;
+    @apply md:px-6;
 }
 
 body {
