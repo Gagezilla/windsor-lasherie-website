@@ -1,6 +1,6 @@
 <script>
-    import Page from "../../../lib/comps/page-templates/page/Page.svelte";
-    import Form from "$lib/comps/page-comps/forms/Form.svelte";
+    import Page from "../../comps/Page.svelte";
+    import Form from "../comps/Form.svelte";
 </script>
 
 <Page title="Advanced Treatment Form" content="A required form for getting an advanced treatment.">

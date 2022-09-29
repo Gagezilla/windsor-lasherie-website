@@ -1,6 +1,6 @@
 <script>
-    import Page from "$lib/comps/page-templates/page/Page.svelte";
-    import FadeIn from "$lib/comps/global/FadeIn.svelte";
+    import Page from "./comps/Page.svelte";
+    import FadeIn from "./comps/FadeIn.svelte";
 </script>
 
 <Page hTitle="Home"

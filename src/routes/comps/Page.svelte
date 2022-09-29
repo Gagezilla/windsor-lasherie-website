@@ -1,7 +1,7 @@
 <script>
-    import PageTransition from "$lib/comps/page-templates/page/PageTransition.svelte";
-    import PageSEO from "$lib/comps/page-templates/page/PageSEO.svelte";
-    import Footer from "$lib/comps/global/Footer.svelte";
+    import PageTransition from "./PageTransition.svelte";
+    import PageSEO from "./PageSEO.svelte";
+    import Footer from "./Footer.svelte";
 
     export let title = undefined;
     export let content = undefined;

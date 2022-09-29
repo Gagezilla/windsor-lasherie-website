@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
-    import Header from "$lib/comps/global/Header.svelte";
+    import Header from "./comps/Header.svelte";
+
 </script>
 
 <Header />

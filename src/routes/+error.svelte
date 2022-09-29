@@ -1,6 +1,6 @@
 <script>
     import { page } from '$app/stores';
-    import Page from "$lib/comps/page-templates/page/Page.svelte";
+    import Page from "./comps/Page.svelte";
 
     let status = $page.status;
     let message = $page.error.message;

@@ -1,7 +1,7 @@
 <script>
-    import Page from "../../lib/comps/page-templates/page/Page.svelte";
+    import Page from "../comps/Page.svelte";
     import Ingredient from "./comps/Ingredient.svelte";
-    import FadeIn from "../../lib/comps/global/FadeIn.svelte";
+    import FadeIn from "../comps/FadeIn.svelte";
 </script>
 
 <Page pad hTitle="Skin Care Tips" hContent="Tips on skin care with ingredients in common products to stay away from.">

@@ -9,7 +9,7 @@
             <span>Licensed Esthetician</span><br><br>
 
             <a href="tel:(970) 880-9474" class="link">(970) 880-9474</a><br>
-            <a href="mainto:windsorlasherie@gmail.com" class="link">windsorlasherie@gmail.com</a><br><br>
+            <a href="mailto:windsorlasherie@gmail.com" class="link">windsorlasherie@gmail.com</a><br><br>
             <span class="text-primary font-medium">
                 Follow us on <a target="_blank" href="https://www.instagram.com/windsor_facialist/" class="link">Instagram</a>
             </span>

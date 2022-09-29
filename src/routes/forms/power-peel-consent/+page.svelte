@@ -1,6 +1,6 @@
 <script>
-    import Page from "../../../lib/comps/page-templates/page/Page.svelte";
-    import Form from "$lib/comps/page-comps/forms/Form.svelte";
+    import Page from "../../comps/Page.svelte";
+    import Form from "../comps/Form.svelte";
 </script>
 
 <Page title="Power Peel Consent Form" content="A required form for getting a power peel treatment.">

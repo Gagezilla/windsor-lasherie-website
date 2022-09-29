@@ -1,7 +1,7 @@
 <script>
-    import Page from "$lib/comps/page-templates/page/Page.svelte";
-    import Collapse from "$lib/comps/page-comps/services/Collapse.svelte";
-    import FadeIn from "$lib/comps/global/FadeIn.svelte";
+    import Page from "../comps/Page.svelte";
+    import Collapse from "./comps/Collapse.svelte";
+    import FadeIn from "../comps/FadeIn.svelte";
 </script>
 
 <Page title="Services"
