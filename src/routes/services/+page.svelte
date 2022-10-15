@@ -11,16 +11,16 @@
         <FadeIn duration="1.25s">
             <Collapse title="Customized Professional Treatments"
                       content={[
-                          {title: "45 min Glow Facial",
+                          {title: "45 min Glow Facial*",
                           content: `Get glowing and on your way. This express
                           skin care treatment focuses on your top concern to
                           leave your skin feeling its best. Great for teens.`},
 
-                          {title: "65 min Glow Facial",
+                          {title: "65 min Glow Facial*",
                           content: `The ultimate customizable treatment addresses
                           multiple concerns. Depending on your skin's needs, it may
-                          include enhanced technology such as ultrasonic, hi-frequency,
-                          LED light therapy and a combination of professional-grade actives.`},
+                          include enhanced technology such as ultrasonic or hi-frequency
+                          and a combination of professional-grade actives.`},
 
                           {title: "Bio-Trinity Wet Microderm Facial",
                           content: `Bio-Trinity’s wet microdermabrasion technology
@@ -28,7 +28,11 @@
                           target skin concerns while re-hydrating the skin in an all in
                           one amazing treatment. This upgraded facial is perfect for most
                           skin types and will leave your skin soft, radiant, and glowing.`}
-                      ]}/>
+                      ]}>
+                <br><br><span class="italic">*For even more customization, consider adding
+                one or two additional services from the Add-On options (Microcurrent, LED,
+                Mutivitamin Exfoliation, Extra Extractions, Dermaplane, Gua Sha).</span>
+            </Collapse>
         </FadeIn>
 
         <FadeIn duration="1.25s" delay=".1s">
@@ -106,7 +110,11 @@
 
                           {title: "Multivitamin Exfoliant - $20"},
 
-                          {title: "Gua Sha Massage - $20"}
+                          {title: "Gua Sha Massage - $20"},
+
+                          {title: "Extra Extractions - $15"},
+
+                          {title: "LED Treatment - $15"},
                       ]}/>
         </FadeIn>
 

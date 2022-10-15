@@ -17,7 +17,12 @@
                         {#if i !== content.length - 1}<br><br>{/if}
                     {:else if part.title && part.content}
                         <h3 class="font-bold px-10">{part.title}</h3><br>
-                        <p class="inline-block px-10">{part.content}</p>
+                        <p class="inline-block px-10">
+                            {#each part.content.split("{nl}") as conPart, ii}
+                                {conPart}
+                                {#if ii !== part.content.split("{nl}").length - 1}<br>{/if}
+                            {/each}
+                        </p>
                         {#if i !== content.length - 1}<br><br><br>{/if}
                     {/if}
                 {/each}
